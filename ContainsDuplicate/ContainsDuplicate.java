@@ -1,4 +1,4 @@
-class Solution {
+class ContainsDuplicate {
     public boolean containsDuplicate(int[] nums) {
         Set<Integer> numbers = new HashSet();
         for(int i = 0; i < nums.length; i ++){
